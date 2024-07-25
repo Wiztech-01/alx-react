@@ -1,25 +1,36 @@
-# 0x01. React intro
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![React](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/79df527164ac54981039.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220712T190947Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b318e988ce4117d113790b8cba85b64ad6cf66057ba17719ac57cb483fc61564)
+## Getting Started
 
-## Resources
+First, run the development server:
 
-**Read or watch:**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-* [React Official Website](https://reactjs.org/)
-* [Getting started with React](https://www.taniarascia.com/getting-started-with-react/)
-* [React overview](https://reactjs.org/docs/getting-started.html)
-* [create-react-app](https://reactjs.org/docs/getting-started.html)
-* [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-* [What is Babel?](https://babeljs.io/docs/en/)
-* [Enzyme](https://enzymejs.github.io/enzyme/docs/api/shallow.html)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-* How to create a basic Javascript application using React
-* How to use the package create-react-app to start developing quickly with React
-* What JSX is and how to use it
-* How to use the React Developer Tools to debug your code
-* How to use Enzyme’s Shadow rendering to test your application
-* How to use React with Webpack & Babel
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
